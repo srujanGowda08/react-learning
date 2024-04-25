@@ -1,0 +1,26 @@
+* {
+  background-color: lightgrey;
+}
+
+.heading {
+  font-weight: 700;
+  font-size: 50px;
+  color: rgb(2, 164, 164);
+}
+
+input {
+  width: 100%;
+}
+
+.Item-container {
+  margin: 50px;
+  text-align: left;
+}
+
+.meRow {
+  margin: 10px 5px;
+}
+
+.meBtn {
+  min-width: 90px;
+}
