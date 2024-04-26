@@ -1,0 +1,16 @@
+.me-item {
+  background-color: blueviolet;
+}
+
+.me-text {
+  font-weight: 700;
+  font-size: 25px;
+  color: rgb(13, 67, 160);
+  background-color: rgb(234, 230, 225);
+}
+
+.game-heading {
+  background-color: aquamarine;
+  font-size: 45px;
+  font-weight: 700;
+}
