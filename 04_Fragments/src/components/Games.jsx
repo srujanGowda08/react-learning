@@ -6,7 +6,11 @@ const Games = ({ items }) => {
   return (
     <ul className="list-group">
       {items.map((item) => (
-        <Item key={item} gameItem={item}></Item>
+        <Item
+          key={item}
+          gameItem={item}
+          play={() => alert(`You are playing ${item}`)}
+        ></Item>
       ))}
     </ul>
   );
