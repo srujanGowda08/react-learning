@@ -1,12 +1,12 @@
 import styles from "./GameInput.module.css";
-const GameInput = ({ handleOnchange }) => {
+const GameInput = ({ handleKeyDown }) => {
   return (
     <div>
       <input
         type="text"
         placeholder="Enter games Here!!"
         className={styles.gameInput}
-        onChange={handleOnchange}
+        onKeyDown={handleKeyDown}
       />
       {/* <button className="btn btn-danger">ADD</button> */}
     </div>
